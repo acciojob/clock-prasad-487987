@@ -1,7 +1,7 @@
 //your JS code here. If required.
 const timer =document.getElementByID("timer");
 
-fuction getTime(){
+function getTime(){
 	const now = new Date();
 
 	timer.textContent = now.toLocaleString();
