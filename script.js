@@ -1,5 +1,5 @@
 //your JS code here. If required.
-const timer =document.getElementByID("timer");
+const timer =document.getElementById("timer");
 
 function getTime(){
 	const now = new Date();
@@ -9,4 +9,4 @@ function getTime(){
 
 getTime();
 
-setInterval( getTime , 1000);
+setInterval(getTime , 1000);
